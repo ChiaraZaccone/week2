@@ -12,11 +12,11 @@ float media;
 /* Comando utente */
 
 
-printf("Digita il primo  numero:\n"); 
+printf("Scrivi il primo  numero:\n"); 
 
-scanf ("%d",&a);
+scanf("%d",&a);
 
-printf("Digita il secondo numero\n");
+printf("Scrivi il secondo numero\n");
 
 scanf("%d",&b);
 
@@ -28,5 +28,5 @@ media = (float)(a+b)/2;
 
 /* Stampa della media */
 
-printf ("la media è: %g\n", media);
+printf ("la media è: %f\n",media);
 }
